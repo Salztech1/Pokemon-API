@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  flex-direction: column;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.Heading{
+  background-color: #5DB9FF;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(168, 244, 18);
+}
+
+.Heading input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #3a9ce6 ;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.Heading button{
+  width: 180px;
+  height: 60px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  font-size: 20px;
+  padding-left: 10px;
+  color: white;
+}
+
+.Heading button:hover{
+  cursor: pointer;
+}
+
+.Selected{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color:rgb(135, 195, 15) ;
+}
+
+.Selected h3, h4{
+  margin: 5px;
+}
+
+.Selected img{
+  width: 200px;
+}
